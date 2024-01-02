@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (sidebar.style.display === 'none' || sidebar.style.display === '') {
         sidebar.style.display = 'block';
         sidebar.style.width = '60%'; // Adjust width for smaller screens when toggling
-      } else {
+        } else {
         sidebar.style.display = 'none';
       }
     }
