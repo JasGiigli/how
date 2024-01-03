@@ -1,0 +1,211 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+/* Reset styles */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #555;
+}
+
+/* Main content styles */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Remove default margin and padding */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure other elements also don't have margins or paddings */
+.header {
+  margin-top: 0;
+  /* Example: Adjust the specific element's margin */
+}
+
+.footer {
+  margin-bottom: 0;
+  /* Example: Adjust the specific element's margin */
+}
+
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
+.button {
+  background-color: #09ff00;
+  color: rgb(255, 2, 2);
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  /* To create a rounded shape */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #3182ce;
+  /* Adjusted hover color */
+}
+
+.list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.item {
+  flex: none;
+  width: 20%;
+  /* Adjust width */
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border: 1px solid #ff00aa;
+  border-radius: 10px;
+  margin: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.item:hover {
+  background-color: #c51212;
+  /* Adjusted hover color */
+}
+
+.item.active {
+  background-color: #4299e1;
+  color: rgb(236, 253, 0);
+}
+
+/* .btn-1 {
+    float: left;
+  }
+  .btn-2 {
+    float: right; */
+}
+
+/* Light mode styles */
+body,
+p,
+button,
+a,
+header,
+footer,
+nav {
+  /* Define your light mode styles */
+  /* For example: */
+  background-color: white;
+  color: black;
+}
+
+/* Dark mode styles */
+body.dark,
+p.dark,
+button.dark,
+a.dark,
+header.dark,
+footer.dark,
+nav.dark {
+  /* Define your dark mode styles */
+  /* For example: */
+  background-color: black;
+  color: white;
+}
